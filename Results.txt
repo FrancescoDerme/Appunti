@@ -1,0 +1,47 @@
+Updated to 23/2/2022 in format dd/mm/yyyy
+Number of words with n° letters (with a margin of 2) present in the database
+n° 1: 748
+n° 2: 3564
+n° 3: 11740
+n° 4: 30356
+n° 5: 70494
+n° 6: 132695
+n° 7: 220387
+n° 8: 318877
+n° 9: 404898
+n° 10: 455337
+n° 11: 458978
+n° 12: 412102
+n° 13: 330665
+n° 14: 226244
+n° 15: 135598
+
+Number of words starting with each letter are:
+a: 63505
+b: 20137
+c: 53767
+d: 60014
+e: 18723
+f: 18973
+g: 16147
+h: 313
+i: 60710
+j: 162
+k: 333
+l: 13191
+m: 26164
+n: 7043
+o: 11319
+p: 43086
+q: 2000
+r: 82581
+s: 112242
+t: 28942
+u: 4684
+v: 13819
+w: 136
+x: 237
+y: 60
+z: 3271
+
+For a total of 661559 words in the database.
