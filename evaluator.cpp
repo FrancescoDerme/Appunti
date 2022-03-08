@@ -56,7 +56,7 @@ std::string Evaluator(std::string word, int language){
         int wlength = (int) word.length();
         int maxl = (clength > wlength) ? clength : wlength;
         
-        //Rule 1: f the candidate is too different from the word, it's skipped.
+        //Rule 1: if the candidate is too different from the word, it's skipped.
         int top_disparities = countDisparities(word, candidate, 0, maxl);
         int bot_disparities = countDisparities(reverse(word, wlength), reverse(candidate, clength), 0, maxl);
         if((top_disparities > wlength / 3 || top_disparities > 2) && (bot_disparities > wlength / 3 || bot_disparities > 2)) continue;
