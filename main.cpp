@@ -64,7 +64,7 @@ int main() {
     while(getline(Input, line)) Separator(Text, line, p);
     Input.close();
     
-    //Reunite separations that were divided by the separator.
+    //Reunite abbreviations that were divided by the separator.
     Abbreviator(Text, language, p);
     
     //General corrections using Dictionary.
