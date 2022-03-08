@@ -44,7 +44,7 @@ void Corrector(std::vector<std::string>& Text, std::vector<std::vector<std::stri
             
             if(i != 0)
                 for(int it=1; last == "" && i-it >= 0; it++){
-                    int length = (int) Text[i-it].length()-1;
+                    int length = (int) Text[i-it].length() - 1;
                     if(Text[i-it] != "\0" && Text[i-it][length] != '\n'){
                         last = Text[i-it];
                         break;
