@@ -200,7 +200,7 @@ void FullStop(std::vector<std::string>& Text, int position, int *corrections){
         }
         //CASE 4: the period is missing + an extra space at the end of the text.
         else if(Text[position][length] == ' '){
-            Text[position-1]+='.';
+            Text[position-1] += '.';
             (*corrections)++;
         }
     }
