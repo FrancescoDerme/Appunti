@@ -73,7 +73,7 @@ void Corrector(std::vector<std::string>& Text, std::vector<std::vector<std::stri
         //Iteration is skipped if the word is either a line break, a number or an abbreviation.
         if(word == "\n\n" || isNumber(word) == true || isAbbreviation(word) == true) continue;
         
-        //Lower capital letters in order to analuze them.
+        //Lower capital letters in order to analize them.
         bool capital = false;
         if(language >= 0 && language <= 1)
             if(word[0] > 63 && word[0] < 91){
