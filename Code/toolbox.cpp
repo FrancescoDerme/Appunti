@@ -1,4 +1,4 @@
-#include "Header.h"
+#include "header.h"
 
 //Counts the number of words starting with each letter of the alphabet present in the database.
 void Analyzer(int language){
