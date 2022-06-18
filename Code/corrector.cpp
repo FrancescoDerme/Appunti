@@ -1,4 +1,4 @@
-#include "Header.h"
+#include "header.h"
 
 inline void clearArray(char Array[], int size);
 inline bool isNumber(const std::string& str);
