@@ -1,4 +1,4 @@
-#include "Header.h"
+#include "header.h"
 
 void Separator(std::vector<std::string>& Text, std::string line, int *corrections){
     int csum = 0; std::string filler = "";
