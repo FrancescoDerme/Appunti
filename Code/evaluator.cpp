@@ -1,4 +1,4 @@
-#include "Header.h"
+#include "header.h"
 
 int countDisparities(std::string word1, std::string word2, int i, int maxl);
 std::string reverse(std::string word, int length);
